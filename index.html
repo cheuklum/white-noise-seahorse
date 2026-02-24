@@ -28,9 +28,13 @@
 
         body {
             font-family: 'Space Mono', monospace;
-            background: linear-gradient(135deg, #6D3BFF 0%, #6D3BFF 30%, #F5E1E5 70%, #F5E1E5 100%);
-            background-size: 400% 400%;
-            animation: gradientShift 20s ease infinite;
+            background-image:
+                linear-gradient(135deg, rgba(109, 59, 255, 0.6) 0%, rgba(139, 107, 191, 0.5) 40%, rgba(199, 184, 212, 0.4) 60%, rgba(245, 225, 229, 0.3) 100%),
+                url('https://media.giphy.com/media/AMfWK3PFfUROcURLiq/giphy.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             display: flex;
             justify-content: center;
             align-items: center;
